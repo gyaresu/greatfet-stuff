@@ -1,7 +1,7 @@
 # This is some blinky code to show Python interaction with Great Scott Gadget's new GreatFET "Azalea"
 # http://greatscottgadgets.com/greatfet/
 #
-# Run the below code from the 'host' directory to imprt greatfet as a module
+# Install the development tools to get the Python library.
 # https://github.com/dominicgs/GreatFET-experimental/tree/master/host
 
 from greatfet import GreatFET, protocol
