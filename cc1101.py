@@ -8,6 +8,7 @@ def spi_read(device, length, command):
 
 def spi_write(device, value, data, timeout):
     data = device.vendor_request_out(protocol.vendor_requests.SPI_WRITE, value=value, data=data, timeout=1000)
+    return data
 
 # 10.4: The command strobe registers are accessed by transferring a single header byte (no data is being transferred).
 # That is, only the R/W¯ bit, the burst access bit (set to 0), and the six address bits (in the range 0x30 through 0x3D)
