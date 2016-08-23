@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from greatfet import GreatFET, protocol
 
 board = GreatFET()
